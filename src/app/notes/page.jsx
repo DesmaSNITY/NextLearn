@@ -34,9 +34,9 @@ const NotesPage = () => {
         console.error("Token tidak valid:", error);
       }
     }
-
     fetchNotes();
   }, []);
+
 
   return (
     <div className="container max-w-screen-xl mx-auto px-4 py-10">

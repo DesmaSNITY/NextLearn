@@ -1,0 +1,12 @@
+:root {
+  --primary: 220 90% 56%;              /* Blue-ish HSL */
+  --primary-foreground: 0 0% 100%;     /* White */
+  
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --radius: 0.5rem;
+}

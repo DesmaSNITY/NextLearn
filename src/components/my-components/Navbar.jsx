@@ -83,23 +83,10 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 right-0 h-1 bg-secondary rounded-t-md" />
               )}
             </Link>
-            <Link
-              href="/notes"
-              className={`relative px-3 py-2 rounded-md font-medium transition-colors
-                  ${
-                    isActive("/notes")
-                      ? "bg-primary-foreground text-primary"
-                      : "text-white hover:bg-primary-foreground/20"
-                  }`}
-            >
-              List Notes
-              {isActive("/notes") && (
-                <span className="absolute -bottom-1 left-0 right-0 h-1 bg-secondary rounded-t-md" />
-              )}
-            </Link>
+            
             {isLoggedIn && (
               <Link
-                href="/notes/create"
+                href="/create"
                 className={`relative px-3 py-2 rounded-md font-medium transition-colors
                   ${
                     isActive("/notes/create")
@@ -114,13 +101,18 @@ export default function Navbar() {
               </Link>
             )}
             {isLoggedIn ? (
-              <Button
-                size="sm"
-                onClick={handleLogout}
-                className="text-white bg-destructive hover:bg-destructive/90 transition"
-              >
-                Logout
-              </Button>
+              <Link 
+              href='/profile'
+              className="w-8 h-8 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-sm font-bold">
+              JD
+              </Link>
+              // <Button
+              //   size="sm"
+              //   onClick={handleLogout}
+              //   className="text-white bg-destructive hover:bg-destructive/90 transition"
+              // >
+              //   Logout
+              // </Button>
             ) : (
               <>
                 <Link href="/login" passHref>
