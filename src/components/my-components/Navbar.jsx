@@ -78,7 +78,7 @@ export default function Navbar() {
                       : "text-white hover:bg-primary-foreground/20"
                   }`}
             >
-              About Us
+              About Me
               {isActive("/about") && (
                 <span className="absolute -bottom-1 left-0 right-0 h-1 bg-secondary rounded-t-md" />
               )}
@@ -187,7 +187,7 @@ export default function Navbar() {
                     : "text-primary-foreground hover:bg-primary-foreground/20 hover:text-primary"
                 }`}
             >
-              About Us
+              About Me
               {isActive("/about") && (
                 <span className="absolute -bottom-1 left-4 right-4 h-1 bg-secondary rounded-t-md" />
               )}

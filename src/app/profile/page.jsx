@@ -59,12 +59,12 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
 
       {/* Main Content */}
-      <main className="p-8">
+      <main className="p-8 ">
         {/* Profile Box */}
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mx-8">
+        <div className="bg-secondary rounded-lg shadow-sm border border-gray-200 p-6 mx-8">
           <div className="flex items-center justify-between">
             {/* Left side - Profile info */}
             <div className="flex items-center space-x-4">
@@ -113,7 +113,7 @@ const ProfilePage = () => {
           ))}
         </div>
       )}
-    </div>
+      </div>
       </main>
     </div>
   );
