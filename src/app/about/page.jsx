@@ -46,11 +46,6 @@ const AboutPage = () => {
       title: "Modular Switch Project",
       desc: "Custom networking switch with Realtek controllers and PoE",
       tech: ["Networking", "PoE", "Realtek", "Hardware"]
-    },
-    {
-      title: "De IT Lab Content",
-      desc: "Educational tech content creation and tutorials",
-      tech: ["YouTube", "Education", "Tech Reviews"]
     }
   ];
 
