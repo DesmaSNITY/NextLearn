@@ -84,7 +84,7 @@ const AboutPage = () => {
             <div className="flex justify-center space-x-6 text-sm text-gray-400">
               <div className="flex items-center space-x-2">
                 <GraduationCap size={16} />
-                <span>CS Student & Lecturer</span>
+                <span>CS Student</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} />
@@ -115,12 +115,11 @@ const AboutPage = () => {
                 </p>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   From ESP8266 IoT projects to PC automation tools, I enjoy exploring the 
-                  intersection of hardware and software. I'm also venturing into deep Q-learning 
-                  and creating educational content as "De IT Guy" and "De IT Lab."
+                  intersection of hardware and software.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
                   I maintain a structured daily routine, waking up early to maximize productivity. 
-                  As both a student and educator, I'm constantly building my academic and 
+                  As a student, I'm constantly building my academic and 
                   practical experience in the tech world.
                 </p>
               </div>
@@ -132,11 +131,6 @@ const AboutPage = () => {
                   <p className="text-gray-400">Early riser focused on productive mornings and structured learning</p>
                 </div>
                 
-                <div className="bg-gray-800/50 p-6 rounded-xl border border-gray-700">
-                  <Youtube className="text-red-400 mb-4" size={32} />
-                  <h3 className="text-xl font-semibold mb-2">Content Creation</h3>
-                  <p className="text-gray-400">Educational tech content through "De IT Guy" and "De IT Lab"</p>
-                </div>
               </div>
             </div>
           </div>
