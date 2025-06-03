@@ -74,7 +74,7 @@ const AboutPage = () => {
             </div>
             
             <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
-              De IT Guy
+              Desma
             </h1>
             
             <div className="text-xl text-gray-300 mb-8 h-8">
